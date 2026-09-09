@@ -37,3 +37,17 @@ Thumbs.db
 # Node (cho frontend sau)
 node_modules/
 npm-debug.log*
+
+# Playwright (test e2e frontend)
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+# Phiên đăng nhập đã lưu để test khỏi login lại — CHỨA TOKEN THẬT, không commit.
+# CẦN `**/`: pattern có dấu "/" ở giữa được git neo vào thư mục chứa .gitignore,
+# nên "e2e/.auth/" trần chỉ khớp <gốc repo>/e2e/.auth — KHÔNG khớp
+# src/frontend/e2e/.auth, tức đúng chỗ file token nằm.
+**/e2e/.auth/
+
+# Graphify (knowledge graph, sinh lại được bằng `graphify .`)
+graphify-out/

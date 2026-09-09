@@ -4,12 +4,12 @@ REPL test AI Agent (kiến trúc B) — chạy thẳng terminal, KHÔNG cần lo
 Cách chạy (từ thư mục src/backend, đã set sẵn các biến môi trường DATABASE_URL,
 GROQ_API_KEY như khi chạy backend):
 
-    python test_agent.py
+    python agent_repl.py
 
 Gõ câu hỏi tiếng Việt, gõ 'quit' để thoát. Thêm cờ --debug để xem agent đã gọi
 tool nào với tham số gì.
 
-    python test_agent.py --debug
+    python agent_repl.py --debug
 """
 
 import json

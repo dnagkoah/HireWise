@@ -83,7 +83,7 @@ export default function Sidebar({ open = false, onClose }) {
       {/* Logo */}
       <div className="flex items-center gap-2.5 px-5 py-5">
         <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-violet-500 to-indigo-600 text-lg font-bold text-white">
-          A
+          H
         </div>
         <span className="text-[15px] font-semibold text-white">HireWise</span>
         <button

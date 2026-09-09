@@ -11,7 +11,7 @@ export default function AuthLayout({ title, subtitle, children }) {
 
         <div className="relative flex items-center gap-2.5">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/15 text-lg font-bold backdrop-blur">
-            A
+            H
           </div>
           <span className="text-[15px] font-semibold">HireWise</span>
         </div>
@@ -49,7 +49,7 @@ export default function AuthLayout({ title, subtitle, children }) {
           {/* Logo shows on small screens where the brand panel is hidden */}
           <div className="mb-8 flex items-center gap-2.5 lg:hidden">
             <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-violet-500 to-indigo-600 text-lg font-bold text-white">
-              A
+              H
             </div>
             <span className="text-[15px] font-semibold text-slate-900">
               HireWise
